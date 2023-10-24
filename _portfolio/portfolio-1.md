@@ -25,7 +25,7 @@ The pose of the robot is denoted by $$\xi = [x, y, \theta]^T$$
 
 $x, y, \theta$ needs to be determined in terms of $\dot{\phi}_{l,r}$.
 
-$$\theta = \omega$$
+$$\dot{\theta} = \omega$$
 
 $$\dot{x} = vcos\theta$$
 
@@ -50,6 +50,57 @@ v\\
 \omega
 \end{bmatrix} \tag{1}
 ````
+if the robot is said to roll without slipping
+$V_A = R_r\dot{\phi_r}$, $V_B = R_l\dot{\phi_l}$
+
+```math
+V_c = V_A + \omega \times r_{C/A}, \quad
+V_c = V_B + \omega \times r_{C/B}
+\tag{2}
+```
+but $V_C = V$. adding and substracting both terms in equation (2) we obtain
+
+```math
+v = \frac{R_r}{2}\dot{\phi_r} + \frac{R_l}{2}\dot{\phi_l}, \quad
+\omega = \frac{-R_r}{2b}\dot{\phi_r} + \frac{R_l}{2b}\dot{\phi_l}
+
+```
+This can further be expressed in matrix form as 
+
+```math
+\begin{bmatrix}
+v\\
+\omega
+\end{bmatrix}
+= \begin{bmatrix}
+    \frac{R_r}{2} & \frac{R_l}{2} \\
+    \frac{-R_r}{2b} & \frac{R_l}{2}
+\end{bmatrix}
+\begin{bmatrix}
+\dot{\phi_r}\\
+\dot{\phi_l}
+\end{bmatrix} \tag{3}
+```
+
+Finally, combining equation (1) and (2) the differential forward kinematics of the mobile robot is obtained as shown in equation (4)
+
+```math
+\begin{bmatrix}
+\dot{x}\\
+\dot{y}\\
+\dot{\theta}
+\end{bmatrix}
+= \begin{bmatrix}
+    \frac{R_r}{2}cos\theta & \frac{R_l}{2}cos\theta \\
+    \frac{-R_r}{2b}sin\theta & \frac{R_l}{2}sin\theta \\
+    \frac{-R_r}{2b} & \frac{R_l}{2b}
+\end{bmatrix}
+\begin{bmatrix}
+\dot{\phi_r}\\
+\dot{\phi_l}
+\end{bmatrix} \tag{4}
+```
+
 
 ***
 Consider a Differential Robot as shown 
