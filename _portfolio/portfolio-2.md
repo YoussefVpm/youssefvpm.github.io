@@ -22,4 +22,10 @@ Overview
 
 ***
 
+## Kinematics
+
+Consider the robot as shown in the figure. The kinematic model can be expressed as 
+
+
+
 ## Equation of motion it will be parsed as HTML. 
