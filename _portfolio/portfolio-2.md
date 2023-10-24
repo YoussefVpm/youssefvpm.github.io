@@ -4,7 +4,7 @@ excerpt: "simulation of different scenarios of a Kinematics Car-Like robot in si
 collection: portfolio
 ---
 
-### _Skills: MATLAB, Simulink, Kinematics, trajectory generation, 
+### _Skills: MATLAB, Simulink, Kinematics, trajectory generation_
 
 ****
 
