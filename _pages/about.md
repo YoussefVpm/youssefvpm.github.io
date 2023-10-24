@@ -28,12 +28,18 @@ _Islamic University of Technology (Jan 2020 - Current)_
 - Robotics and Controls
 - 3D modelling
 
+***
+
 <a href="https://example.com" style="background-color: #0384fc; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Projects</a>
 
-<a href="https://example.com" style="background-color: ##ff0037; color: white; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Resume</a>
+<a href="https://example.com" style="background-color: #e60032; color: white; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Resume</a>
 
 <a href="https://example.com" style="display: inline-block; width: 100px; height: 100px; background-color: #4CAF50; color: white; text-align: center; line-height: 100px; border-radius: 50%; text-decoration: none;">Click Me</a>
 
+<div style="background-color: #333; color: white; padding: 20px;">
+  <h2>This is a Dark Section</h2>
+  <p>This section has a dark background.</p>
+</div>
 
 
 #I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
