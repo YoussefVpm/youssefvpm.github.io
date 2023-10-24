@@ -1,3 +1,4 @@
+<!--
 ---
 permalink: /
 title: "Vepouyoum Youssef"
@@ -7,6 +8,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+-->
+
 **B.Sc. Mechanical Engineering**
 
 <div style="background-color: #333; color: white; padding: 20px;">
