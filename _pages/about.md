@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-**B.Sc. Mechanical Engineering**
+![Editing a markdown file for a talk](/images/banner_github.png)
+
+<!--**B.Sc. Mechanical Engineering**-->
 
 <div style="background-color: #333; color: white; padding: 20px;">
   
