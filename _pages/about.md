@@ -30,7 +30,7 @@ _Islamic University of Technology (Jan 2020 - Current)_
 
 <a href="https://example.com" style="background-color: #0384fc; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Projects</a>
 
-<a href="https://example.com" style="background-color: ##ff0037; color: white; padding: 50px 100px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Resume</a>
+<a href="https://example.com" style="background-color: ##ff0037; color: white; padding: 20px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Resume</a>
 
 <a href="https://example.com" style="display: inline-block; width: 100px; height: 100px; background-color: #4CAF50; color: white; text-align: center; line-height: 100px; border-radius: 50%; text-decoration: none;">Click Me</a>
 
