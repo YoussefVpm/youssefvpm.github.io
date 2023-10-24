@@ -14,14 +14,12 @@ Demo:
 This project simulates a 2D differential mobile robot following a defined trajectory.
 
 ***
-Overview
-===
 
 ## Equation of motion
 
-Consider a mobile robot in the world frame of reference $(X_w,Y_w)$. The robot is at position $(x,y)$ with respect to its center of mass. The robot has width of $2b$ and wheel radius of $2R_l$ and $2R_r$, left and right respectively. The angular velocity of the left and right wheels are $\dot{\phi}_l$ and $\dot{\phi}_r$ repectively. The robot's frame, linear velocity, angular postion, angular velocity of the robot about its center is given by $(X_r,Y_r)$, $v$, $\theta$, $\omega$ respectively.
+- Consider a mobile robot in the world frame of reference $(X_w,Y_w)$. The robot is at position $(x,y)$ with respect to its center of mass. The robot has width of $2b$ and wheel radius of $2R_l$ and $2R_r$, left and right respectively. The angular velocity of the left and right wheels are $\dot{\phi}_l$ and $\dot{\phi}_r$ repectively. The robot's frame, linear velocity, angular postion, angular velocity of the robot about its center is given by $(X_r,Y_r)$, $v$, $\theta$, $\omega$ respectively.
 
-The pose of the robot is denoted by $$\xi = [x, y, \theta]^T$$
+- The pose of the robot is denoted by $$\xi = [x, y, \theta]^T$$
 
 $x, y, \theta$ needs to be determined in terms of $\dot{\phi}_{l,r}$.
 
@@ -31,7 +29,7 @@ $$\dot{x} = vcos\theta$$
 
 $$\dot{y} = vsin\theta$$
 
-The above equation can be written in terms of rotation matrix in the  $(X_w,Y_w)$ plane denotated as shown below;
+- The above equation can be written in terms of rotation matrix in the  $(X_w,Y_w)$ plane denotated as shown below;
 
 $$
 \begin{bmatrix}
@@ -51,7 +49,7 @@ v\\
 \end{bmatrix} \tag{1}
 $$
 
-if the robot is said to roll without slipping
+- if the robot is said to roll without slipping
 $V_A = R_r\dot{\phi_r}$, $V_B = R_l\dot{\phi_l}$
 
 $$
@@ -84,7 +82,7 @@ v\\
 \end{bmatrix} \tag{3}
 $$
 
-Finally, combining equation (1) and (2) the differential forward kinematics of the mobile robot is obtained as shown in equation (4)
+- Finally, combining equation (1) and (2) the differential forward kinematics of the mobile robot is obtained as shown in equation (4)
 
 $$
 \begin{bmatrix}
