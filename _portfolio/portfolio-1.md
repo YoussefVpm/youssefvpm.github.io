@@ -33,7 +33,7 @@ $$\dot{y} = vsin\theta$$
 
 The above equation can be written in terms of rotation matrix in the  $(X_w,Y_w)$ plane denotated as shown below;
 
-```math
+$$
 \begin{bmatrix}
 \dot{x}\\
 \dot{y}\\
@@ -49,7 +49,8 @@ v\\
 0\\
 \omega
 \end{bmatrix} \tag{1}
-````
+$$
+
 if the robot is said to roll without slipping
 $V_A = R_r\dot{\phi_r}$, $V_B = R_l\dot{\phi_l}$
 
