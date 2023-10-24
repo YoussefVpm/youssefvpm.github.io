@@ -26,9 +26,30 @@ The pose of the robot is denoted by $$\xi = [x, y, \theta]^T$$
 $x, y, \theta$ needs to be determined in terms of $\dot{\phi}_{l,r}$.
 
 $$\theta = \omega$$
+
 $$\dot{x} = vcos\theta$$
+
 $$\dot{y} = vsin\theta$$
 
+The above equation can be written in terms of rotation matrix in the  $(X_w,Y_w)$ plane denotated as shown below;
+
+```math
+\begin{bmatrix}
+\dot{x}\\
+\dot{y}\\
+\dot{z}
+\end{bmatrix}
+= \begin{bmatrix}
+    cos\theta & -sin\theta & 0 \\
+    sin\theta & cos\theta & 0 \\
+    0 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+v\\
+0\\
+\omega
+\end{bmatrix} \tag{1}
+````
 
 ***
 Consider a Differential Robot as shown 
