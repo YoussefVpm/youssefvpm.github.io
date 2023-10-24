@@ -1,6 +1,6 @@
 ---
 title: "Differential Mobile Robot Kinematics"
-excerpt: "The ability of a robot to navigate effectively in its environment requires a proper drive kinematic equations. This project uses basic mathematical concepts like rigid-body motion to simulate a simple trajectory <br/><img src='/images/500x300.png' align="right">"
+excerpt: "The ability of a robot to navigate effectively in its environment requires a proper drive kinematic equations. This project uses basic mathematical concepts like rigid-body motion to simulate a simple trajectory <p align='right'><img src='/images/500x300.png'></p>"
 collection: portfolio
 ---
 
