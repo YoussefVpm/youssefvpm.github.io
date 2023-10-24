@@ -34,8 +34,3 @@ _Islamic University of Technology (Jan 2020 - Current)_
 ***
 
 <a href="https://example.com" style="background-color: #0384fc; color: white; padding: 10px 40px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Projects</a>
-
-<div style="background-color: #333; color: white; padding: 20px;">
-  <h2>This is a Dark Section</h2>
-  <p>This section has a dark background.</p>
-</div>
