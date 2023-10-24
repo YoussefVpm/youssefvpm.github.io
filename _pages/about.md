@@ -28,7 +28,7 @@ _Islamic University of Technology (Jan 2020 - Current)_
 - Robotics and Controls
 - 3D modelling
 
-<a href="https://example.com" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Click Me</a>
+<a href="https://example.com" style="background-color: #4CAF50; color: blue; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Projects</a>
 
 
 #I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
