@@ -22,10 +22,24 @@ Overview
 
 ***
 
-## Kinematics
+## Kinematics Equation
 
-Consider the robot as shown in the figure. The kinematic model can be expressed as 
+Consider the Unicycle robot in a 2D world frame as shown in the figure. The generalized coordinates of the vehicle's configuration is $q = (x, y, \theta)$ 
 
+The kinematic model of the vehicle can be expressed as 
 
+$$\dot{x} = vcos\theta$$
 
-## Equation of motion it will be parsed as HTML. 
+$$\dot{y} = vsin\theta$$
+
+$$\dot{\theta} = \frac{v}{L}tan\gamma$$
+
+where;
+
+- $\theta$ = orientation angle of robot
+- $\gamma$ = steering angle
+- $L$ = length of wheel base
+- $v$ = linear velocity of robot
+- $\dot{\theta}$ = angular velocity
+- $\ddot{x}$, $\ddot{y}$ are linear acceleration in $x$ and $y$ directions respectively
+
