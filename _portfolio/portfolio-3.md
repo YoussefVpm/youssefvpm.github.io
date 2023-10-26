@@ -1,6 +1,6 @@
 ---
 title: "3D Projectile Motion"
-excerpt: "This Experimentation involves the analysis and vizualization of trajectory of a projectile motion in 3D <img src='/images/projectile/projectile1.png'>"
+excerpt: "This Experimentation involves the analysis and vizualization of trajectory of a projectile motion in 3D <img src='/images/projectile/projectile.gif'>"
 collection: portfolio
 ---
 
