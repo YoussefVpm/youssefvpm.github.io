@@ -12,8 +12,10 @@ Demo:
 ===
 
 ***
+
 Projectile Model:
 ===
+
 "A projectile motion is a motion where a ball is fired in the air at an angle and is allowed to moved under the force of gravity". I woke up one morning and remembered this definition from my physics teacher in secondary school. As an engineering student, I wanted to vizualize it once more using a software tool like Matlab, as these fundamental concepts never dies once you grasp it.
 
 Goal
@@ -27,7 +29,7 @@ The goal of this experimentation was to shoot a sperical projectile (ball, stone
 ## output 
 - To graphically visualise the trajectory from start to target point.
 
-Equation of motion
+Equation of motion:
 ===
 
 From the diagram below, the equation of motion was evaluated in vector and each component is independent. Therefore they can be written as;
@@ -50,7 +52,8 @@ Once more specifying the initial positions (x_0,y_0,z_0) in order to compute the
 After jumping into Matlab and spending most of the time to visualise, The result was quite satisfactory. The matlab code is displayed below as follows.
 
 ***
-Matlab Script
+
+Matlab Script:
 ===
 
 ```matlab
@@ -144,7 +147,7 @@ for i=1:nmax
 
     drawnow;
 end
-```
+
 
 ***
 
