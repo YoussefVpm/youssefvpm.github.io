@@ -51,6 +51,8 @@ Once more specifying the initial positions (x_0,y_0,z_0) in order to compute the
 
 After jumping into Matlab and spending most of the time to visualise, The result was quite satisfactory. The matlab code is displayed below as follows.
 
+<img src='/images/projectile/projectile1.png'>
+
 ***
 
 Matlab Script:
