@@ -67,13 +67,8 @@ pre code {
 ```matlab
 %% Projectile motion
 clc; clear; close;
-```
 
-***
-
-```matlab
 %% Shooter parameters
-
 params = sys_params; g = params.gravity;
 
 % maximum number of points for simulation
@@ -81,10 +76,11 @@ nmax = 80;
 
 % initial conditions
 p0 = [0; 0; 0];
-phi = -15;           % from -90 to 90
-theta = 60;         % from 0 to 90
+phi = -15;            % from -90 to 90
+theta = 60;           % from 0 to 90
 v0 = 21;
 
+% desired position
 pd = [40; -10; 0];
 
 % time required to hit the ground
@@ -101,7 +97,7 @@ tmax = (2*v0*sind(theta))/g;
 % Define the center and radius of the circle
 centerX = pd(1);   % x-coordinate of the center
 centerY = pd(2);   % y-coordinate of the center
-radius = 5;    % radius of the circle
+radius = 5;        % radius of the circle
 
 % Generate points along the circumference of the circle
 alpha = linspace(0, 2*pi, 100); % Generate 100 points around the circle
@@ -144,15 +140,12 @@ for i=1:nmax
     grid on; % Display the grid
 
     % Label the axes
-    xlabel('X-axis');
-    ylabel('Y-axis');
-    zlabel('Z-axis');
+    xlabel('X-axis');    ylabel('Y-axis');    zlabel('Z-axis');
 
     % Set the plot title
     title('3D Projectile motion'); 
     axis([-15,50,-25,25,0,40])
     set(gca,"Clipping","off")
-
     drawnow;
 end
 ```
@@ -178,11 +171,7 @@ x = x0 + v_x0*t;   y = y0 + v_y0*t;   z = z0 + v_z0*t - 0.5*g*t.^2;
 X=[x;y;z];
 % --------------------------------------
 end
-```
 
-***
-
-```matlab
 %% system parameters
 
 function [ params ] = sys_params()
@@ -198,5 +187,3 @@ params.u_max = 1.2*params.mass*params.gravity;
 
 end
 ```
-
-
