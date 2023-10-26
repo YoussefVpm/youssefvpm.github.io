@@ -56,14 +56,22 @@ After jumping into Matlab and spending most of the time to visualise, The result
 Matlab Script:
 ===
 
+<style>
+/* Custom CSS for code blocks */
+pre code {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+</style>
+
+
 ```matlab
 %% Projectile motion
 clc; clear; close;
-````
+```
 
 ***
 
-```python
+```matlab
 %% Shooter parameters
 
 params = sys_params; g = params.gravity;
@@ -147,7 +155,7 @@ for i=1:nmax
 
     drawnow;
 end
-
+```
 
 ***
 
@@ -170,8 +178,8 @@ x = x0 + v_x0*t;   y = y0 + v_y0*t;   z = z0 + v_z0*t - 0.5*g*t.^2;
 X=[x;y;z];
 % --------------------------------------
 end
-
 ```
+
 ***
 
 ```matlab
