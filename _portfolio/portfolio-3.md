@@ -63,7 +63,7 @@ clc; clear; close;
 
 ***
 
-```matlab
+```python
 %% Shooter parameters
 
 params = sys_params; g = params.gravity;
