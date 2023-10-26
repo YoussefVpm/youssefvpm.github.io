@@ -49,5 +49,143 @@ Once more specifying the initial positions (x_0,y_0,z_0) in order to compute the
 
 After jumping into Matlab and spending most of the time to visualise, The result was quite satisfactory. The matlab code is displayed below as follows.
 
+***
+Matlab Script
+===
+
+```matlab
+%% Projectile motion
+clc; clear; close;
+````
+
+***
+
+```matlab
+%% Shooter parameters
+
+params = sys_params; g = params.gravity;
+
+% maximum number of points for simulation
+nmax = 80;
+
+% initial conditions
+p0 = [0; 0; 0];
+phi = -15;           % from -90 to 90
+theta = 60;         % from 0 to 90
+v0 = 21;
+
+pd = [40; -10; 0];
+
+% time required to hit the ground
+tmax = (2*v0*sind(theta))/g;
+
+[t,X] = myFlightModel(phi, theta, p0, v0, tmax, nmax);
+```
+
+***
+
+```matlab
+%% target circle
+
+% Define the center and radius of the circle
+centerX = pd(1);   % x-coordinate of the center
+centerY = pd(2);   % y-coordinate of the center
+radius = 5;    % radius of the circle
+
+% Generate points along the circumference of the circle
+alpha = linspace(0, 2*pi, 100); % Generate 100 points around the circle
+x = centerX + radius * cos(alpha);
+y = centerY + radius * sin(alpha);
+z = zeros(size(x)); % Z-coordinates are all zero for the XY plane
+```
+
+***
+
+```matlab
+%% Plot
+
+for i=1:nmax
+    
+    % 3D scatter plot with initial condition
+    plot3(p0(1), p0(2), p0(3),'.g','markersize',30);
+    hold on;
+    
+    % target circle
+    plot3(x, y, z, 'g','LineWidth',2);
+    hold on;
+    
+    % plot trajectory
+    ball = plot3(X(1,i),X(2,i),X(3,i),'.r','markersize',40);
+    
+    % draw path
+    plot3(X(1,:),X(2,:),X(3,:), '.r','markersize',5);
+    
+    % draw shadow
+    shadow = plot3(X(1,i),X(2,i),0*X(3,i), '.k', 'markersize',20);
+    
+    if i >= nmax-1
+       delete(shadow); % Clear the last 2 plot
+    end
+    
+    % draw desired point
+    % plot3(pd(1), pd(2), pd(3),'.g','markersize',30);
+    
+    grid on; % Display the grid
+
+    % Label the axes
+    xlabel('X-axis');
+    ylabel('Y-axis');
+    zlabel('Z-axis');
+
+    % Set the plot title
+    title('3D Projectile motion'); 
+    axis([-15,50,-25,25,0,40])
+    set(gca,"Clipping","off")
+
+    drawnow;
+end
+```
+
+***
+
+```matlab
+%% Projectile function
+
+function [t,X]=myFlightModel(phi, theta, p0, v0, tmax, nmax)
+t=linspace(0,tmax,nmax);
+
+%--------------------------------------
+
+params = sys_params; g = params.gravity;
+x0 = p0(1); y0 = p0(2); z0 = p0(3);
+
+v_x0 = v0*cosd(theta).*cosd(phi);
+v_y0 = v0*cosd(theta).*sind(phi);
+v_z0 = v0*sind(theta);
+
+x = x0 + v_x0*t;   y = y0 + v_y0*t;   z = z0 + v_z0*t - 0.5*g*t.^2;
+X=[x;y;z];
+% --------------------------------------
+end
+
+```
+***
+
+```matlab
+%% system parameters
+
+function [ params ] = sys_params()
+
+% Physical properties
+params.gravity = 9.81;
+params.mass = 0.0638;
+params.arm_length = 0.086;
+
+% Actuator limits
+params.u_min = 0;
+params.u_max = 1.2*params.mass*params.gravity;
+
+end
+```
 
 
