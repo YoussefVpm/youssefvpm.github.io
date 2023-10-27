@@ -32,7 +32,7 @@ The goal of this experimentation was to shoot a sperical projectile (ball, stone
 Equation of motion:
 ===
 
- <img src='/images/projectile/fbd.png'>
+ <img src='/images/projectile/fbd.jpg'>
 
 From the free body diagram above, the equation of motion was evaluated in vector and each component is independent. Therefore they can be written as;
 - x-direction: $m\frac{d^2}{dt^2}x(t) = 0$
