@@ -14,7 +14,7 @@ Education
 * B.Sc. Mechanical Engineering
   * CourseWork: Mechanics & Materials, Thermal-Fluids Engineering, Dynamics and Control, Numerical Computation, Design & Manifacturing.
 
-Work experience
+Experience
 ======
 * Summer 2015: Research Assistant
   * Github University
@@ -46,18 +46,24 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Extra-Curricular activities
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  * IUT Basketball Captain
+  * International Student Community (ISC): Workshop trainer on Introduction to Robotics & Arduino to the Freshers
+  * IUT ALUMNI ASSOCIATION: Ceremony organizer of the ANNUAL GENERAL MEETING 2023
+  * IUT Model OIC: Active General Executive in academic simulation of OIC
   
-Teaching
+Languages
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * English
+  * French
+  * Italian
+  * Spanish
+  * Bangla
   
-Service and leadership
+Interest
 ======
-* Currently signed in to 43 different slack teams
+* Sports (Fav Basketball)
+* Travelling
+* New Language Learning
+* Arts (Drawing, Painting, Leather craft)
