@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /Resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.Sc. Mechanical Engineering
-** CourseWork: Mechanics & Materials, Thermal-Fluids Engineering, Dynamics and Control, Numerical Computation, Design & Manifacturing.
+  * CourseWork: Mechanics & Materials, Thermal-Fluids Engineering, Dynamics and Control, Numerical Computation, Design & Manifacturing.
 
 Work experience
 ======
