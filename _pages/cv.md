@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. Mechanical Engineering
+** CourseWork: Mechanics & Materials, Thermal-Fluids Engineering, Dynamics and Control, Numerical Computation, Design & Manifacturing.
 
 Work experience
 ======
@@ -29,12 +28,17 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* CAD/CAM: Solidworks, Autodesk Inventor, Fusion 360, Keyshot
+
+* ECAD: Altium designer, Kicad
+
+* Programming: C, Arduino, Python, Latex
+
+* Computation and Simulation: Matlab/Simulink, ANSYS Workbench
+
+* IT: Photoshop, Illustrator, Microsoft office (Word, Excel, PowerPoint)
+
+* Fabrication: 3D printing, Lazer Cutting, Lathe, Soldering
 
 Publications
 ======
