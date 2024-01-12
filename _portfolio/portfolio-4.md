@@ -34,3 +34,6 @@ Vertical farming is an innovative and sustainable agricultural practice that inv
 <img src='/images/pictures/3.png'>
 <img src='/images/pictures/2.png'>
 <img src='/images/pictures/4.png'>
+
+### ECAD and CAD outcome
+In the course of this the PairT project, I also designed a small enclosure for the PCB stacked along on the popular <a href="[url](https://store.arduino.cc/products/arduino-uno-rev3)">Arduino uno board</a>. 3D printing is thus a great tool for prototyping enclosures and for getting first impression of the look. The enclosure will be mounted using M3 screws with nuts.
