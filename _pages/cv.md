@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.Sc. Mechanical Engineering (2020 to 2024)
+* B.Sc. Mechanical Engineering (Jan 2020 - Current)
   * CourseWork: Mechanics & Materials, Thermal-Fluids Engineering, Dynamics and Control, Numerical Computation, Design & Manifacturing.
   * CGPA: 3.32
 
