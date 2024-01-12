@@ -10,6 +10,7 @@ collection: portfolio
 
 Demo:
 ===
+<img src='/images/projectile/projectile.gif'>
 
 ***
 
