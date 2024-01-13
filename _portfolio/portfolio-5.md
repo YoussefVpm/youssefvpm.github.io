@@ -1,6 +1,6 @@
 ---
 title: "Measure-Object-Diameter"
-excerpt: "Measure-Object-Diameter <img src='/images/measure-diameter-of-ball/4.png'>"
+excerpt: "Measure images or frame within an image, which can be important in many computer vision applications. This could help avoid phyical measurements which could eventually be tideous. <img src='/images/measure-diameter-of-ball/4.png'>"
 collection: portfolio
 ---
 
