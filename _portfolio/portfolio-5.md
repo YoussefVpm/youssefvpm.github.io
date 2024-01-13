@@ -24,15 +24,15 @@ Software:
 Process:
 ===
 * Import Image
-***
+
 <img src='/images/measure-diameter-of-ball/1.png'>
 
 * Seperate Images into RGB layers
-***
+
 <img src='/images/measure-diameter-of-ball/2.png'>
 
 * Image Segmentation and post-processing
-***
+
 <img src='/images/measure-diameter-of-ball/3.png'>
 
 Results and discussion:
