@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 <a href="https://github.com/YoussefVpm/Measure-Object-Diameter">
-    <img src="https://img.shields.io/github/v/tag/:user/:repo" alt="Github Repo">
+    <img src="https://img.shields.io/badge/Github_Repository-Repo" alt="Github Repo">
 </a>
 
 ### _Skills: MATLAB, Image Segmentation, Image Processing Toolbox_
