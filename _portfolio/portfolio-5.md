@@ -1,6 +1,6 @@
 ---
-title: "3D Projectile Motion"
-excerpt: "This Experimentation involves the analysis and vizualization of trajectory of a projectile motion in 3D <img src='/images/projectile/projectile.gif'>"
+title: "Measure-Object-Diameter"
+excerpt: "Measure-Object-Diameter <img src='/images/measure image diameter of ball/4.png'>"
 collection: portfolio
 ---
 
@@ -19,10 +19,23 @@ Software:
 
 Process:
 ===
+* Import Image
+***
+<img src='/images/measure image diameter of ball/1.png'>
+
+* Seperate Images into RGB layers
+***
+<img src='/images/measure image diameter of ball/2.png'>
+
+* Image Segmentation and post-processing
+***
+<img src='/images/measure image diameter of ball/3.png'>
 
 
 Results and discussion:
 ===
+<img src='/images/measure-image-diameter-of-ball/4.png'>
+***
 The diameter is displayes on the window where the units is in pixel. This approach is manual which means this script is has a less degree of freedon for only this image and could not be applied with other images with for example high saturation, hue or vibrance.
 
 
